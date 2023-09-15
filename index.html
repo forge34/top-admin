@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="style.css">
     <script src="//code.iconify.design/1/1.0.6/iconify.min.js" defer></script>
@@ -7,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin dashboard</title>
 </head>
+
 <body>
     <div class="grid">
         <div class="navbar">
@@ -15,37 +17,99 @@
                 Dashboard
             </h1>
 
-            <h3><img class="img" src="home-account.svg" alt=""> Home
-            </h3>
-            <h3><img src="account-circle.svg" alt="" class="img"> Profile</h3>
-            <h3><img src="message.svg" alt="" class="img"> Messages</h3>
-            <h3><img src="clock-outline.svg" alt="" class="img"> History</h3>
-            <h3><img src="file-check.svg" alt="" class="img"> Tasks</h3>
-            <h3><img src="account-multiple.svg" alt="" class="img"> Communities</h3>
-            <h3 class="settings"><img src="cog.svg" alt="" class="img"> Settings</h3>
-            <h3><img src="tooltip-question.svg" alt="" class="img"> Support</h3>
-            <h3><img src="check-network.svg" alt="" class="img"> Privacy</h3>
+            <div class="navbar-items">
+                <h3><img class="img" src="home-account.svg" alt=""> Home
+                </h3>
+                <h3><img src="account-circle.svg" alt="" class="img"> Profile</h3>
+                <h3><img src="message.svg" alt="" class="img"> Messages</h3>
+                <h3><img src="clock-outline.svg" alt="" class="img"> History</h3>
+                <h3><img src="file-check.svg" alt="" class="img"> Tasks</h3>
+                <h3><img src="account-multiple.svg" alt="" class="img"> Communities</h3>
+                <h3 class="settings"><img src="cog.svg" alt="" class="img"> Settings</h3>
+                <h3><img src="tooltip-question.svg" alt="" class="img"> Support</h3>
+                <h3><img src="check-network.svg" alt="" class="img"> Privacy</h3>
+            </div>
         </div>
 
         <div class="header">
             <div class="search">
-                <img src="magnify.svg" >
+                <img src="magnify.svg">
                 <input type="search">
                 <img src="bell.svg" class="bell">
-                <img src="cat.svg" >
+                <img src="cat.svg">
                 <h2 class="morgan">Morgan Oakley</h2>
             </div>
 
             <div class="profile">
+                <img src="cat.svg" class="cat">
+                <div class="greeting-text">
+                    <p>Hi there!</p>
+                    <h3>Morgan Oakley</h3>
+                </div>
 
+                <div class="buttons">
+                    <button class="btn">New</button>
+                    <button class="btn">Upload</button>
+                    <button class="btn">Share</button>
+                </div>
             </div>
         </div>
 
         <div class="dashboard">
             <div class="projects"></div>
-            <div class="announcement"></div>
-            <div class="trending"></div>
+            <div class="announcement">
+                <h1>Announcements</h1>
+                <div class="mini-article">
+                    <h3>Site Mainteneace</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam voluptates sit dolores.</p>
+                </div>
+                <div class="mini-article">
+                    <h3>Community Share day</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dolore sed velit, voluptas nostrum
+                        voluptates.</p>
+                </div>
+                <div class="mini-article">
+                    <h3>Updated Privacy Policy</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione.</p>
+                </div>
+            </div>
+
+            <div class="trending">
+                <h2>Trending</h2>
+                <div class="avatar">
+                    <img src="account-tie.svg" class="tie" alt="">
+                    <div class="user-text">
+                        <h4>@user</h4>
+                        <p>Man of steel</p>
+                    </div>
+                </div>
+
+                <div class="avatar">
+                    <img src="account-tie.svg" class="tie" alt="">
+                    <div class="user-text">
+                        <h4>@user</h4>
+                        <p>Inportat Person</p>
+                    </div>
+                </div>
+
+                <div class="avatar">
+                    <img src="account-tie.svg" class="tie" alt="">
+                    <div class="user-text">
+                        <h4>@user</h4>
+                        <p>Project Manager</p>
+                    </div>
+                </div>
+
+                <div class="avatar">
+                    <img src="account-tie.svg" class="tie" alt="">
+                    <div class="user-text">
+                        <h4>@user</h4>
+                        <p>Awesome Creator</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
